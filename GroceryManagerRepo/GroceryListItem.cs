@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace GroceryManagerRepo
 {
-    public class Class1
+   public class GroceryListItem
     {
+        public int Quantity { get; set; }
+
+        public Ingredient Ingredient { get; set; }
     }
 }
